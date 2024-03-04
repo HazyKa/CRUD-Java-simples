@@ -27,7 +27,6 @@ public class ContatoDAO {
         } catch(Exception e){
             e.printStackTrace();
         } finally{
-
             try{
                 if(pstm!=null){
                     pstm.close();
